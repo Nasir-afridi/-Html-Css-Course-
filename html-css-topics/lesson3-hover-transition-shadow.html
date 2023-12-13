@@ -1,0 +1,85 @@
+<style>
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        height: 36px;
+        width: 105px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;        /* when we place a cursor into button its change to pointer */
+        margin-right: 10px;
+        transition: opacity 0.15s; /*mouse ko button py laty waqt ye duration hai smoothes ki this is the good time duration of transistion*/
+    }
+
+
+
+    /************************************************hover properties***************************************************/
+    .subscribe-button:hover{
+        opacity: 0.6;   
+        /*jbb ham mouse ko button py lakrr jaingy to ye action kryga opacity faded krny ky liye hote ha */
+    }
+    .subscribe-button:active{  
+        opacity: 0.5;
+        /*active mein jab ham button ko clk kraingy to ye action lyga*/
+    }
+    /******************************************************************************************************************/
+
+
+
+    .Join-button {
+        background-color: white;
+        border-color: rgb(41,118 ,211 );
+        border-width: 1px;
+        border-style: solid;            /*this property use in border-color to put a full color to border*/
+        cursor: pointer;
+        color: rgb(41,118 ,211 );
+        height: 36px;
+        width: 62px;
+        border-radius: 3px;
+        margin-right: 10px;
+        transition: background-color 0.15s, color 0.15s;  
+        /*jbb 2 properties aik sath lagane hoon to commay sy separate hote*/
+    }
+
+
+    /***************************************************hover area******************************************************/
+    .Join-button:hover{
+        color: white;
+        background-color: rgb(41,118 ,211 );
+    }
+    .Join-button:active{
+        opacity: 0.6;
+    }
+    /*******************************************************************************************************************/
+
+
+    .tweet-button {
+        color: white;
+        height: 36px;
+        border: none;
+        font-weight: 600;
+        background-color: rgb(2, 158, 225);
+        width: 74px;
+        border-radius: 18px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+    }
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0,0,0.15);
+        /*use:for showing shadow on something the 1 value is horizantal 2 is vertical 3 is blur and 4 is color rgba 
+        pure black color hota hai jismein oski akhiri value kii best amount shadow ky liye 0.15 hai*/
+
+    }
+</style>
+
+    <button class="subscribe-button">
+        SUBSCRIBE
+    </button>
+
+    <button class="Join-button">
+        JOIN
+    </button>
+
+    <button class="tweet-button">
+        Tweet
+    </button>
