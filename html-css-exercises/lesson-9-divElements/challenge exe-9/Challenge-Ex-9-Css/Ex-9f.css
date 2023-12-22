@@ -1,0 +1,47 @@
+.container{
+    width: 150px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-family: arial;
+}
+
+.heading{
+    font-weight: bold;  
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+}
+.description-1{
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: grey;
+}
+
+.add-button{
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-family: arial;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+

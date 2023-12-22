@@ -1,0 +1,38 @@
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 200px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+p{
+    color: grey;
+    font-size: 14px;
+    font-family: Arial;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 15px;
+}
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    font-family: verdana;
+    padding-top:6px;
+    padding-bottom: 6px;
+    padding-right:15px;
+    padding-left: 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 150px;
+}
+.container{
+    width: 430px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,53 @@
+.btn-1{
+    border-color: silver;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    color: silver;
+    border-width: 0.15px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 6px;
+    font-weight: normal;
+}
+.btn-2{
+    border-color: silver;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    color: silver;
+    border-width: 0.15px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.Email{
+    padding-top:9px;
+    padding-bottom:9px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 95px;
+    border-radius:5px ;
+    border-width: 1px;
+    border-color: silver;
+    color: silver;
+    border-style: solid;
+    margin-bottom: 15px;  
+}
+button{
+    background-color: rgb(10, 102, 194);
+    border: none;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right:120px ;
+    padding-left:105px ;
+    font-size: 15px;font-weight: bold;
+    border-radius: 7px;
+}

@@ -1,0 +1,50 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:whitesmoke;
+    border: none;
+    color: grey;
+}
+
+.Request{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+.location{
+    width: 350px;
+}
+.distance{
+    width: 350px;
+    margin-bottom: 30px;
+}
+.request{
+    background-color: black;
+    border: none;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+.schedule{
+    border: none;
+    font-size: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}

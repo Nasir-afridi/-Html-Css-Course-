@@ -1,0 +1,29 @@
+.Email{
+    font-size: 14px;
+    color: grey;
+}
+.input-class{
+    padding-right: 160px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin-top:5px; 
+    margin-bottom:7px;
+}
+.description{
+    font-size: 13px;
+    font-family: Arial;
+    color:gray;
+}
+button{
+    border: none;
+    background-color: blue;
+    padding: 13px 100px 13px 100px;
+    color: white;
+    margin-left: 20px;
+    border-radius: 29px;
+    font-size: 15px;
+    font-family: Arial;
+}

@@ -1,0 +1,9 @@
+input{
+    color: grey;
+    display: block;
+    margin-bottom: 5px;
+    width: 130px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
