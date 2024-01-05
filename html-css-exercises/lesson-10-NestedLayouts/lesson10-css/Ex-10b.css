@@ -1,0 +1,203 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto , Arial;
+}
+button{
+    border: none;
+    background-color:#0d6efd; 
+    color: white;
+    padding-top: 8px; 
+    padding-bottom: 8px;   
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 3px;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main{
+    width: 300px;
+    border: 1px solid rgb(33, 37, 41);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.container{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.profile{
+    width: 58px;  
+    display: inline-block;
+}
+.para{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 120px;
+}
+.cat{
+    margin-top: 3px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 70px;
+}
+.name{
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 3px;
+    color:rgb(33, 37, 41); 
+}
+.breed{
+    font-size:13px;
+    color:  rgb(96, 96, 96);
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+.famous{
+    font-size:13px;
+    color:  rgb(96, 96, 96);
+    font-weight: 200;
+}
+
+
+
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto , Arial;
+}
+.follow{
+    border: none;
+    background-color:#0d6efd; 
+    color: white;
+    padding-top: 8px; 
+    padding-bottom: 8px;   
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 3px;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-1{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.container-1{
+    width: 320px;
+    margin-bottom: 20px;
+}
+.profile-1{
+    width: 58px;  
+    display: inline-block;
+}
+.para-1{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 105px;
+}
+.cat-1{
+    margin-top: 3px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 70px;
+}
+.name-1{
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 3px;
+    color:rgb(33, 37, 41); 
+}
+.breed-1{
+    font-size:13px;
+    color:  rgb(96, 96, 96);
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+.famous-1{
+    font-size:13px;
+    color:  rgb(96, 96, 96);
+    font-weight: 200;
+}
+
+
+    /*
+        No-03
+    */
+
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Roboto , Arial;
+    }
+    .follow-2{
+        border: none;
+        background-color:#0d6efd; 
+        color: white;
+        padding-top: 8px; 
+        padding-bottom: 8px;   
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 3px;
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .btn-2{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    .container-2{
+        width: 340px;
+    }
+    .profile-2{
+        width: 58px;  
+        display: inline-block;
+    }
+    .para-2{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 80px;
+    }
+    .cat-2{
+        margin-top: 3px;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 70px;
+    }
+    .name-2{
+        font-weight: 500;
+        display: inline-block;
+        font-size: 15px;
+        margin-bottom: 3px;
+        color:rgb(33, 37, 41); 
+    }
+    .breed-2{
+        font-size:13px;
+        color:  rgb(96, 96, 96);
+        font-weight: 200;
+        margin-bottom: 3px;
+    }
+    .famous-2{
+        font-size:13px;
+        color:  rgb(96, 96, 96);
+        font-weight: 200;
+    }
