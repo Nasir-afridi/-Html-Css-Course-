@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Grid-Css</title>
+        <!-- grid is a layout that has rows and columns means how many rows and columns in a design or anyother thing -->
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <div style=
+        "display: grid;
+        grid-template-columns: 100px 100px;">
+        <!-- how many columns our grid have will tell us this gid-template class -->
+        <div style="background-color: lightblue;">100px</div>  
+        <!-- the method we give color called inline-styles -->
+        <div style="background-color: lightpink;">100px<p>text</p></div>
+        </div>
+
+
+
+    <div style="display: grid;
+     grid-template-columns: 100px 100px 200px;
+     margin-top: 20px;">
+    <div style="background-color: lightblue;">100px</div>              
+    <div style="background-color: lightpink;">100px<p>text</p></div>
+    <div style="background-color: lightblue;">200px</div> 
+    </div>
+
+
+
+        
+     <div style="display: grid;
+     grid-template-columns: 100px 1fr;  
+     margin-top: 20px;">
+    <div style="background-color: lightblue;">100px</div>  
+    <div style="background-color: lightpink;">1fr</div>
+    </div>
+
+
+
+    <div style="display: grid;
+    grid-template-columns: 100px 1fr 1fr;  
+    margin-top: 20px;">
+    <div style="background-color: lightblue;">100px</div> 
+    <div style="background-color: lightpink;">1fr</div>
+    <div style="background-color: lightblue;">2fr</div>
+    </div>
+      
+    
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    margin-top:20px;
+    height:200px;
+    column-gap: 20px;     /* For spacing between the video in the form of column we can use this property*/
+    row-gap: 40px;">      <!-- For spacing between the video in the form of row we can use this property-->
+    <div style="background-color: lightblue; height:200px;">1fr</div> 
+    <div style="background-color: lightpink; height:200px;">1fr</div>
+    <div style="background-color: lightblue; height:200px;">1fr</div>
+    <div style="background-color: lightpink; height:200px;">1fr</div>
+    <div style="background-color: lightblue; height:200px;">1fr</div>
+    <div style="background-color: lightpink; height:200px;">1fr</div>
+    </div>
+
+    </body>
+    </html>
