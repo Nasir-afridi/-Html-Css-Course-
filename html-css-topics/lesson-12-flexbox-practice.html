@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lesson-12-flexbox-practice</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style=
+    "display: flex;
+    flex-direction:row;
+    ">
+        <div style="background-color: lightblue;">div 1 text</div>
+        <div style="background-color: lightpink;">div 2 <p>tect</p></div>
+    </div>
+    <!--------------------------------------------div-2---------------------------------------------------->
+    <div style="
+    display: flex;
+    flex-direction:row;
+    margin-top: 30px;
+    ">
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightpink; flex: 1;">flex:1</div>
+        <!--in flexbox for all space needed we use flex:1; instead of fr-->
+    </div>
+    <!---------------------------------------------div-3------------------------------------------------->
+    <div style="
+    display: flex;
+    flex-direction:row;
+    margin-top: 30px;
+    ">
+        <div style="background-color: lightpink; flex: 1;">flex:1</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightpink; flex: 2;">flex:2</div>
+    </div>
+        <!----------------------------------------div-4---------------------------------------------->
+        <div style="
+        display: flex;
+        flex-direction:row;
+        margin-top: 30px;
+        height: 70px;
+        border: 1px solid grey;
+        justify-content: center;
+        ">
+            <div style="background-color: lightblue; width: 100px;">100px</div>
+            <div style="background-color: lightpink; width: 100px;">100px</div>
+            <div style="background-color: lightblue; width: 100px;">100px</div>
+            </div>
+            <!--justify-content:end,start,center can center end or start these div-->
+        <!------------------------------------div-5------------------------------------------------------>
+        <div style="
+        display: flex;
+        flex-direction:row;
+        margin-top: 30px;
+        height: 70px;
+        border: 1px solid grey;
+        justify-content: space-between;
+        ">
+            <div style="background-color: lightblue; width: 100px;">100px</div>
+            <div style="background-color: lightpink; width: 100px;">100px</div>
+            <div style="background-color: lightblue; width: 100px;">100px</div>
+            <p>space between</p>
+        </div>
+        <!------------------------------------div-6--------------------------------------------------------->
+        <div style="
+        display: flex;
+        flex-direction:row;
+        margin-top: 30px;
+        height: 70px;
+        border: 1px solid grey;
+        justify-content: space-around;
+        align-items: center;
+        ">
+            <div style="background-color: lightblue; width: 100px;">100px</div>
+            <div style="background-color: lightpink; width: 100px;">100px</div>
+            <div style="background-color: lightblue; width: 100px;">100px</div>
+            <p>space around</p>
+        </div>
+
+
+
+
+    <!--difference yehe ha rigid orr flexbox mein kkkk rigid kii jaga badlo gyy to wo apne width nai
+    bdly ga sath wo isliye kkk hamny osky column opar define kiye hoty hain or flexbox apne jaga ky
+    sath sath width be badal daita hai q k osko define nai kiya hota flexbox is much beeter -->
+</body>
+</html>
