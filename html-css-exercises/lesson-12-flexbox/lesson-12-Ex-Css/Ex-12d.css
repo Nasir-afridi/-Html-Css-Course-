@@ -1,0 +1,17 @@
+.container{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-1{
+    width: auto;
+    background-color: lightpink;
+}
+.item-2{
+    width: auto;
+    background-color: lightpink;
+}

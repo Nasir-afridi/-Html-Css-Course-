@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div-1{
+    width: auto;
+    background-color: lightblue;
+}
+.div-2{
+    width: auto;
+    background-color: lightpink;
+}
+.div-3{
+    width: auto;
+    background-color: lightblue;
+}
+.div-4{
+    width: auto;
+    background-color: lightpink;
+}
