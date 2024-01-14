@@ -1,0 +1,92 @@
+div{
+    font-family: arial;
+}
+.container{
+    width:370px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07),
+    0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px
+  rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+.email{
+    margin-bottom: 20px;
+}
+.header{
+    width:100px;
+    margin-bottom: 20px;
+}
+.top{
+    color: gray;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+
+
+.data{
+    display: flex;
+    flex-direction: row;
+     
+    
+}
+
+.pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-top: 2px;
+}
+.image-container{
+    width: 50px;  
+}
+
+
+
+.text{
+    margin-left: 8px;
+}
+.upper{
+    margin-bottom: 3px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description{
+    font-weight:bold;
+    font-size:16px;
+}
+.time{
+    font-size: 12px;
+    color: gray;
+    margin-right: 5px;
+}
+
+
+
+
+.middle{
+    width: 250px;
+    margin-bottom: 4px;
+}
+.info{
+    font-weight: bold;
+    font-size: 14px;  
+}
+
+
+
+
+.bottom{
+    width: 280px;
+}
+.tells{
+    font-size: 13.5px;
+    color: gray;
+}
