@@ -9,13 +9,14 @@
     column-gap: 16px;
     row-gap: 40px;
 }
+
 .img-1{
     width: 100%;
 }
 .video-title{            
     font-weight: 500;
     font-size: 14px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .grid-video-info{
     display: grid;
@@ -35,7 +36,7 @@
     position: relative;         
 }
 .profile-picture{
-    width: 40px;
+    width: 36px;
     border-radius: 20px;
 }
 .profile{
@@ -78,7 +79,7 @@ Div-2
 .video-title-2{            
     font-weight: 500;
     font-size: 14px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .video-author-2{
     font-size: 12px;
@@ -94,7 +95,7 @@ Div-2
     position: relative;         
 }
 .profile-picture-2{
-    width: 40px;
+    width: 36px;
     border-radius: 20px;
 }
 .profile-2{

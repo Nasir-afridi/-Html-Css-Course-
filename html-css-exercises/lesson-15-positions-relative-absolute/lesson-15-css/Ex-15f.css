@@ -4,10 +4,6 @@ img{
     object-fit: cover;
     object-position: c;
 }
-.container{
-
-}
-
 .image-container{
     position: relative;
     display: inline-block;
