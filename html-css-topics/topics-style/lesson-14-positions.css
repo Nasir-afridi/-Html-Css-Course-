@@ -31,7 +31,8 @@
     color: rgb(96, 96, 96);
 }
 .persons{
-    margin-bottom: 6px;            
+    margin-bottom: 6px;   
+    position: relative;         
 }
 .profile-picture{
     width: 40px;
@@ -48,6 +49,20 @@
     width: 240px;
 }
 
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
 /*
 Div-2
 */
@@ -75,7 +90,8 @@ Div-2
     color: rgb(96, 96, 96);
 }
 .persons-2{
-    margin-bottom: 6px;            
+    margin-bottom: 6px;   
+    position: relative;         
 }
 .profile-picture-2{
     width: 40px;
@@ -92,5 +108,19 @@ Div-2
 }
 .video-text-2{
     display: inline-block;
-    width: 200px;
+    width: 280px;
+}
+.video-time-2{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:4px;
+    padding-bottom:4px;
 }
